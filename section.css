@@ -1,0 +1,72 @@
+.grid h2 {
+  padding: 90px;
+  word-break: break-all;
+  line-height: 1;
+  font-size: 8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 4ch;
+}
+section h2 {
+  color: rgba(0, 0, 0, 0.116);
+}
+
+.section_coluna2 {
+  display: grid;
+}
+.section_coluna2 {
+  display: grid;
+}
+
+.sobre_mim {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: bisque;
+  text-align: left;
+  justify-content: right;
+  align-content: center;
+  justify-items: left;
+  gap: 40px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: calc(50rem / 16);
+  background: rgba(218, 218, 217, 0.2);
+  position: relative;
+}
+
+.sobre_mim li {
+  background-color: rgb(212, 198, 198, 0.3);
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.sobre_mim h3 {
+  padding-bottom: 10px;
+}
+
+.para_mim {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.sobre_mim .data {
+  position: absolute;
+  left: -104px;
+  top: 30px;
+}
+.sobre_mim::before {
+  content: "";
+  width: calc(5rem / 16);
+  height: calc(25rem / 16);
+  display: block;
+  background: rgb(111, 158, 41);
+  position: absolute;
+  top: 30px;
+  background-image: linear-gradient(to top, rgb(255, 0, 0), rgb(70, 2, 2));
+}
+
+span {
+  color: rgba(0, 0, 0, 0.541);
+}
